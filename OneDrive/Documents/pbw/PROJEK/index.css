@@ -1,0 +1,63 @@
+.container-custom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar{
+    background:transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    
+    z-index: 1000; 
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-brand {
+    padding: 10px;
+    margin: 15px;
+    color: #4CBFB8;
+    font-size: 2.0rem;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #323232;
+  }
+  
+  .nav-link:hover {
+    color: #4CBFB8;
+  }
+
+  .card-body .btn-container {
+    display: flex;
+    justify-content: flex-end; /* Untuk menempatkan tombol di sisi kanan */
+  }
+
+  .card-header .navbar-nav {
+    margin: 0 auto; /* Untuk memusatkan navbar */
+  }
+
+  
